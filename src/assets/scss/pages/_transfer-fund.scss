@@ -1,0 +1,16 @@
+.transfer-container {
+    min-height: 86vh;
+    // margin-block-start: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    & button {
+        background-color: rgb(29, 114, 225);
+        color: #fff;
+        border: none;
+
+    }
+}

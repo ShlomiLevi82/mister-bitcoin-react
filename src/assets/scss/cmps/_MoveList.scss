@@ -1,0 +1,16 @@
+.move-list {
+  article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-top: 6px solid #2e85cc;
+
+    p.time {
+      font-size: .8rem;
+      color: #646464;
+    }
+  }
+}

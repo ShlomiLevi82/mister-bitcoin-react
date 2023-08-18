@@ -1,0 +1,37 @@
+.app-header {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding-block: 1rem;
+
+    background: #3f74d6;
+    color: white;
+
+    @media (max-width: 600px) {
+        z-index: 1;
+    }
+
+    .link,
+    .logo {
+        cursor: pointer;
+    }
+
+    .nav>* {
+        text-decoration: none;
+        color: #ffffff;
+        border: 1px solid #fff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .active {
+        color: rgb(122, 218, 59);
+        border-color: rgb(143, 134, 134);
+    }
+
+    .link:hover {
+        scale: 1.05;
+    }
+}

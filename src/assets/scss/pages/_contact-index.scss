@@ -1,0 +1,17 @@
+.contact-index {
+    margin: 1.2rem;
+
+    & .btn-add {
+
+        background-color: #24a5e1;
+        width: 6rem;
+        padding: 1rem;
+        border-radius: 5rem;
+        text-align: center;
+
+        &>* {
+            color: azure;
+        }
+    }
+
+}

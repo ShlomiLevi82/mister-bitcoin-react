@@ -1,0 +1,30 @@
+.home {
+    min-height: 86vh;
+    margin-block-start: 5rem;
+
+    & .bit-icon {
+        align-items: center;
+
+        & i {
+            font-size: 5rem;
+        }
+
+        & h1 {
+            font-size: 2rem;
+        }
+
+        & button {
+            background-color: #24a5e1;
+            color: #fff;
+            width: 6rem;
+            padding: 1rem;
+            border-radius: 5rem;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+
+    img {
+        width: 50px;
+    }
+}
